@@ -16,8 +16,6 @@ header .wrapper {
 
 header .logo {
 
-    font-family: "Dosis", sans-serif;
-    font-weight: 700;
     font-size: 40px;
 
 
@@ -28,5 +26,27 @@ header a {
     text-decoration: none;
     display: flex;
     align-content: center;
+    color: black;
+    font-family: "Dosis", sans-serif;
+    font-weight: 700;
+
+}
+
+header ul {
+
+    list-style-type: none;
+    display: flex;
+
+}
+
+header li {
+
+    margin-left: 30px;
+
+}
+
+header img {
+
+    margin-right: 30px;
 
 }
