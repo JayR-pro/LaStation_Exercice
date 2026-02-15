@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
 
     width: 1220px;
     margin-left: auto;
@@ -6,7 +6,7 @@
 
 }
 
-header .wrapper{
+header .wrapper {
 
     display: flex;
     justify-content: space-between;
@@ -14,3 +14,19 @@ header .wrapper{
 
 }
 
+header .logo {
+
+    font-family: "Dosis", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+
+
+}
+
+header a {
+
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+
+}
