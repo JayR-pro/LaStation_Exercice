@@ -1,6 +1,12 @@
+body {
+
+    background-color: #EEEEEE;
+
+}
+
 .wrapper {
 
-    width: 1220px;
+    width: 1280px;
     margin-left: auto;
     margin-right: auto;
 
@@ -73,6 +79,14 @@ header li a:hover {
 
 }
 
+header {
+
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: white;
+
+}
+
 .hero .texte {
 
     padding: 40px;
@@ -105,16 +119,79 @@ h2 {
 
 }
 
-header {
-
-    padding-top: 20px;
-    padding-bottom: 15px;
-
-}
 
 .articles {
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 407px 407px 407px;
+    gap: 30px;
+    margin-bottom: 80px;
+
+}
+
+.articles article {
+
+    background-color: white;
+    padding: 20px;
+    height: auto;
+    border-bottom: 5px solid #0E5EA1;
+
+}
+
+.articles article .bouton {
+
+    text-align: center;
+
+}
+
+.articles article .bouton a {
+
+    text-decoration: none;
+    align-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    color: black;
+    background-color: #B7B7B7;
+    font-family: "Dosis", sans-serif;
+    font-weight: 700;
+
+}
+
+.articles article p {
+
+    height: 100px;
+
+}
+
+.articles article .bouton a:hover {
+
+    background-color: #0E5EA1;
+    color: white;
+
+}
+
+h3 {
+
+    font-family: "Dosis", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #0E5EA1;
+
+}
+
+h4 {
+
+    font-family: "Dosis", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+p {
+
+    font-family: "Roboto", sans-serif;
 
 }
