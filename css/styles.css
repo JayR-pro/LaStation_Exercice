@@ -190,8 +190,35 @@ h4 {
 
 }
 
-p {
+article p {
 
     font-family: "Roboto", sans-serif;
+    line-height: 160%;
+    font-size: 18px;
+    margin-bottom: 60px;
+
+}
+
+.banniere {
+
+    margin-bottom: 80px;
+
+}
+
+footer {
+
+    text-align: center;
+    background-color: black;
+
+}
+
+footer p {
+
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 24px;
+    padding-top: 24px;
 
 }
